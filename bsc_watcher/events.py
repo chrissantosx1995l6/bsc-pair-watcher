@@ -49,3 +49,13 @@ class MintEvent:
     block_number: int
     tx_hash: str
     log_index: int
+
+
+@dataclass
+class SyncEvent:
+    pair: str
+    reserve0: int
+    reserve1: int
+    block_number: int
+    tx_hash: str
+    log_index: int
