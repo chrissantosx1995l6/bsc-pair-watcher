@@ -48,3 +48,5 @@ Pairs and liquidity additions are stored in `pairs.db` (or whatever path passed 
 ```bash
 sqlite3 pairs.db "SELECT pair_address, token0_symbol, token1_symbol, initial_bnb, created_at FROM pairs ORDER BY id DESC LIMIT 10;"
 ```
+
+<!-- checked: 2026-09-08 -->
